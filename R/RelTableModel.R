@@ -289,7 +289,7 @@ RelTableModel <- function(
    ## Creating the object ----
    toRet <- l
    class(toRet) <- c("RelTableModel", class(toRet))
-   toRet <- correct_constraints(toRet)
+#   toRet <- correct_constraints(toRet)
    return(toRet)
 
 }
