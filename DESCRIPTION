@@ -1,7 +1,7 @@
 Package: ReDaMoR
 Type: Package
 Title: Relational Data Modeler
-Version: 0.7.4
+Version: 0.7.5
 Authors@R: c(
     person(
         "Patrice", "Godard",
@@ -31,25 +31,25 @@ Depends:
    magrittr,
    visNetwork
 Imports:
-   readr,
-   shiny,
-   shinyjs,
-   jsonlite,
-   DT,
-   colourpicker,
-   rintrojs,
-   markdown,
-   rstudioapi,
-   crayon,
-   utils,
-   graphics,
-   stats,
-   Matrix
+    readr,
+    shiny,
+    shinyjs,
+    jsonlite,
+    DT,
+    colourpicker,
+    rintrojs,
+    markdown,
+    rstudioapi,
+    crayon,
+    utils,
+    graphics,
+    stats,
+    Matrix,
+    igraph
 Suggests:
-   knitr,
-   rmarkdown,
-   igraph,
-   base64enc
+    knitr,
+    rmarkdown,
+    base64enc
 License: GPL-3
 Encoding: UTF-8
 VignetteBuilder: knitr

@@ -48,7 +48,9 @@ TYPETABLE <- list(
 #' @export
 #'
 SUPPTYPES <- c(
-   "integer", "numeric", "logical", "character", "Date", "POSIXct", "base64"
+   "integer", "numeric", "logical", "character", "date", "timestamp", "point geometry",
+   "linestring geometry", "polygon geometry", "multipoint geometry", "multilinestring geometry",
+   "multipolygon geometry", "geometry collection"
 )
 
 ###############################################################################@
