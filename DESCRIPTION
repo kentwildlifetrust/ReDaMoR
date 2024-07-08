@@ -46,7 +46,8 @@ Imports:
     stats,
     Matrix,
     igraph,
-    desc
+    desc,
+    callr
 Suggests:
     knitr,
     rmarkdown,
