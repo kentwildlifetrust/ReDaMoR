@@ -1,4 +1,4 @@
-Package: ReDaMoR
+Package: postgisMoR
 Type: Package
 Title: Relational Data Modeler
 Version: 0.7.5
